@@ -29,18 +29,3 @@ class CategorySerializer(serializers.ModelSerializer):
         model = Category
         fields = "__all__"
 
-
-# from rest_framework import serializers
-# from .models import Coin, Category
-
-# class CoinSerializer(serializers.ModelSerializer):
-#     class Meta:
-#         model = Coin
-#         fields = '__all__'
-
-# class CategorySerializer(serializers.ModelSerializer):
-#     coins = CoinSerializer(many=True, read_only=True)
-
-#     class Meta:
-#         model = Category
-#         fields = '__all__'
