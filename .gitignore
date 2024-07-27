@@ -1,0 +1,72 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+/static/
+/media/
+
+# Environment
+.env
+.venv/
+venv/
+ENV/
+env/
+*.pyc
+
+# Django Secret Key
+*.key
+
+# MyPy
+.mypy_cache/
+
+# Pytest
+.pytest_cache/
+
+# Coverage
+.coverage
+*.cover
+coverage.xml
+htmlcov/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Docker
+docker-compose.override.yml
+Dockerfile.local
+
+# Backup files
+*.bak
+*.swp
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# Local settings
+local_settings.py
+
+# Django migrations
+*/migrations/*
+!*/migrations/__init__.py
+
+# Database
+*.db
+*.sqlite3
+*.sqlite
+
+# System
+.DS_Store
+*.dmg
+*.gz
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
