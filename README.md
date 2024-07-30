@@ -81,4 +81,4 @@ flake8
 ```
 
 ## Coverage report
-![Coverage report of 97%](https://drive.google.com/file/d/1anDKtwpEf6MWyTKw2tKp3eIQtFS6MCnS/view?usp=sharing)
+![Default Home View](coverage-report.png?raw=true "Title")
